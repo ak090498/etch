@@ -25,7 +25,7 @@ let generateGrid=(n)=>{
     cont.appendChild(node)
     let gridItem = document.getElementById(i+""+j)
 
-    gridItem.addEventListener("click",()=>{
+    gridItem.addEventListener("mouseover",()=>{
         gridItem.style.backgroundColor="#00FF00"
        
     })
